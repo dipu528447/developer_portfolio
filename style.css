@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: green; */
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+}
+
+.head {
+    margin: 0px 100px;
+}
+
+.headSection {
+    display: flex;
+}
+
+.headLeftSection {
+    width: 50%;
+}
+
+.headLeftSection h1 {
+    margin: 50px 0px;
+}
+
+.headLeftSection h4 {
+    margin: 20px 0px;
+}
+
+.headLeftSection h1 span {
+    color: tomato;
+}
+
+.headRightSection {
+    margin-left: 30px;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.headRightPicture {
+    width: 50%;
+}
+
+.headLeftSection p {
+    color: gray;
+}
+
+#hireMe {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border: 2px solid tomato;
+    border-radius: 5px;
+    color: white;
+}
+
+.headRightPicture img {
+    width: 40vw;
+}
+
+.MiddleSection {
+    display: flex;
+    margin: 100px 100px;
+
+}
+
+.midSection {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.MiddleLeftSection {
+    width: 50%;
+}
+
+.MiddleLeftSection img {
+    width: 40vw;
+}
+
+.MiddleRightSection {
+    width: 50%;
+    margin: 0px 30px;
+}
+
+.MiddleRightSection h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.MiddleRightSection h4 {
+    margin: 30px 0px;
+}
+
+.MiddleRightSection p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#Download_Resume {
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border: 2px solid tomato;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.EndSection {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-size: 11%;
+    background-position: left;
+}
+
+.ExperienceSection {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.EndLeftSection {
+    width: 40%;
+    padding: 40px;
+    border-left: 10px solid tomato;
+    box-shadow: 5px 5px 40px #888888;
+}
+
+.EndLeftSection h1 {
+    font-size: 30px;
+    margin: 40px 0px;
+    font-weight: 500;
+}
+
+.EndLeftSection h3 {
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.EndRightSection {
+    width: 40%;
+    padding: 40px;
+    box-shadow: 5px 5px 40px #888888;
+    border-left: 10px solid navy;
+}
+
+.EndRightSection h1 {
+    font-size: 30px;
+    margin: 40px 0px;
+    font-weight: 500;
+}
+
+.EndRightSection h3 {
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 150px;
+}
